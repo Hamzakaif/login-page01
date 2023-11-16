@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form by Kaif</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6a921d3b2e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+    <div class="form-box">
+        <h1 id="title">sign up</h1>
+        <form>
+            <div class="inpute-group">
+                <div class="input-feild" id="nameField">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Name">
+                </div>
+                <br>
+                <div class="input-feild">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="email">
+                </div>
+                <br>
+
+                <div class="input-feild">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="password">
+                </div>
+                
+                <p>Forget password? <a href="#">click here!</a></p>
+                
+            </div>
+            <br>
+                <div class="btn-feild">
+                    <button type="button" id="sinupBtn">sign up</button>
+                    <button type="button" id="signinBtn" class="disable">sign in</button>
+
+                </div>
+                <br>
+        </form>
+
+    </div>
+        
+    </div>
+    <script>
+        let sinupBtn = document.getElementById("sinupBtn")
+        let sininBtn = document.getElementById("sininBtn")
+        let nameField = document.getElementById("nameFeild")
+        let title = document.getElementById("title")
+
+        signinBtn.onclick = function()
+        {
+            nameField.style.maxHeight ="0";
+        }
+    </script>
+</body>
+</html>
