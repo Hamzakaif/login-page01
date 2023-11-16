@@ -3,57 +3,205 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login form by Kaif</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/6a921d3b2e.js" crossorigin="anonymous"></script>
+    <title>Save tree Save Earth</title>
+    <Style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .logo img{
+            width: 170px;
+            height: 170px;          
+            
+            
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            height: 30vh;
+          /*  align-items: center;*/
+        }
+        .right ul{
+            display: flex;
+         /* padding: 20px;*/
+          
+
+        }
+        .right ul li{
+            list-style: none;
+            padding: 20px ;
+            cursor: pointer;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        li:hover{
+            color: rgb(113, 191, 11);
+           /* font-size: 20px;*/
+        }
+        .color{
+            color: rgb(217, 176, 126);
+            
+        }
+        .first{
+            height: 5vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;    
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 80px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        .first span{
+            font-size: 40px;
+            
+        }
+        span img{
+            padding-top:90px;
+        }
+    p{
+        font-size: 19px;
+        width: 43vw;
+       text-align: center;
+       
+    }
+    .first button{
+        background-color:#00b6d1;
+        padding: 14px 16px;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-weight: 700;
+        cursor: pointer;
+       
+      
+
+    }
+    .first button a{
+        text-decoration: none;
+        color: white;
+    }
+    .flex{
+        display: flex;
+    }
+    .small{
+        font-size: small;
+    }
+   .second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .btn {
+    background-color:#00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+
+   }
+   .green{
+    background-color: rgb(7, 213, 7)
+   }
+   .item{
+    padding: 23px;
+    border-radius: 10px;
+    background-color: rgb(249, 244, 244);
+   }
+   .item a{
+    text-decoration: none;
+    color: white;
+   }
+   .item-count{
+    font-weight: 500;
+    text-align: center;
+  padding-bottom: 28px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+   }
+       .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 12px;
+       }
+       .our{
+        font-size: 23px;
+        padding-bottom: 20px;
+        gap: 10px;
+    
+       }
+       
+    
+        
+    </Style>
 </head>
 <body>
-    <div class="container">
-    <div class="form-box">
-        <h1 id="title">sign up</h1>
-        <form>
-            <div class="inpute-group">
-                <div class="input-feild" id="nameField">
-                    <i class="fa-solid fa-user"></i>
-                    <input type="text" placeholder="Name">
-                </div>
-                <br>
-                <div class="input-feild">
-                    <i class="fa-solid fa-envelope"></i>
-                    <input type="email" placeholder="email">
-                </div>
-                <br>
-
-                <div class="input-feild">
-                    <i class="fa-solid fa-lock"></i>
-                    <input type="password" placeholder="password">
-                </div>
-                
-                <p>Forget password? <a href="#">click here!</a></p>
-                
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/IMAGE.png" alt="">
             </div>
-            <br>
-                <div class="btn-feild">
-                    <button type="button" id="sinupBtn">sign up</button>
-                    <button type="button" id="signinBtn" class="disable">sign in</button>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>Pricing</li>
+                    <li>Contact</li>
+                    <li>About us</li>
+                </ul>
+            </div>
+        </nav>
 
-                </div>
-                <br>
-        </form>
+    </header>
+    <main>
+        <section class="first">
+            <span>Join for <b>greenery</b> with us ... <img  width="65" src="/green.png" alt="green"></span>
+        <p>Trees provide life to humans, consuming carbon dioxide to release oxygen ,tree are like breathin lungs for the earth</p>
+        <button><a href="https://hamzakaif.github.io/login-page01/">CLICK HERE TO JOIN EVERGREEN.</a></button>
+        <div></div>
+    </section>
+    <br><br></br></br>
+    <section class="second">
+        <div class="flex"></div>
+        <span class="our"><img width="20px" height="20px" src="/icon.png" alt="">Our Connetion<br</span>
+        <span class="small">2023.01.00034.00</span>
+   
+        <div class="grid">
+            <div class="item">
+                <div class="item-count">India</div>
+                <button class="btn blue"><a href="/file.exe">English</a></button>
+                <button class="btn green">Hindi</button>
+            </div>
+            <div class="item">
+                <div class="item-count">America</div>
+                <button class="btn blue">English</button>
+                <button class="btn green">American</button>
+            </div>
+            <div class="item">
+                <div class="item-count">Bangladesh</div>
+                <button class="btn blue">English</button>
+                <button class="btn green">Bengali</button>
+            </div>
+            <div class="item">
+                <div class="item-count">Turkey</div>
+                <button class="btn blue">English</button>
+                <button class="btn green">turkies</button>
+            </div>
+            <div class="item">
+                <div class="item-count">Pakistan</div>
+                <button class="btn blue">English</button>
+                <button class="btn green">Urdu</button>
+            </div>
+            <div class="item">
+                <div class="item-count">Argentina</div>
+                <button class="btn blue">English</button>
+                <button class="btn green">postugiues </button>
+            </div>
+        </div>
+    </section>
 
-    </div>
-        
-    </div>
-    <script>
-        let sinupBtn = document.getElementById("sinupBtn")
-        let sininBtn = document.getElementById("sininBtn")
-        let nameField = document.getElementById("nameFeild")
-        let title = document.getElementById("title")
+    </main>
 
-        signinBtn.onclick = function()
-        {
-            nameField.style.maxHeight ="0";
-        }
-    </script>
 </body>
 </html>
